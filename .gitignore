@@ -1,0 +1,19 @@
+# Ignore all auto-generated Drupal files
+/web/sites/default/files/*
+!/web/sites/default/files/.gitkeep
+
+# Optionally ignore PHP temp directories (e.g., Twig cache)
+/web/sites/default/files/php/
+
+# Ignore all compressed files
+*.gz
+
+# Ignore all compiled CSS and JS assets
+*.css
+*.js
+
+# Optional: Ignore .htaccess files under /files if dynamically generated
+/web/sites/default/files/**/*.htaccess
+
+# Ignore compiled Twig PHP templates
+/web/sites/default/files/**/*.php
