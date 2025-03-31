@@ -17,3 +17,5 @@
 
 # Ignore compiled Twig PHP templates
 /web/sites/default/files/**/*.php
+
+.idea
